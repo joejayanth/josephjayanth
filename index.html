@@ -1,9 +1,164 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Joseph Jayanth Home</title>
+
+
+   <!--joseph jayanth homepage-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39559930-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-39559930-3');
+</script>
+
+	<title> Joseph Jayanth</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="joseph jayanth, Freshworks, Zoho">
+
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata"  rel='stylesheet'>
+
+<style type="text/css">
+	
+
+
+	.smallbutton {
+		background-color: tan;
+	  	font-family: Crimson pro;
+		border: none;
+		color: black;
+		padding: 2px 10px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 5px;
+		display: inline-block;
+		font-size: .5em;
+		margin: 4px 2px;
+		cursor: pointer;
+
+	}
+
+	 /* unvisited link */
+	a:link {
+	  color: black;
+	  text-decoration: none;
+	}
+
+	/* visited link */
+	a:visited {
+	  color: black;
+	  text-decoration: none;
+	}
+
+	/* mouse over link */
+	a:hover {
+	  color: black;
+	  text-decoration: none;
+	}
+
+	/* selected link */
+	a:active {
+	  color: black;
+	  text-decoration: none;
+	} 
+
+	h1{
+		font-size: 3em;
+		font-weight: lighter;
+	}
+
+	h2{
+		font-size: 2em;
+		font-weight: lighter;
+		padding-left: 4em;
+	}
+
+	.container {
+		margin-top: 5em;
+	}
+	
+
+</style>
+
 </head>
-<body>
- <h1>Trying it out</h1>
+<body style="background-color: cornsilk; font-family: crimson pro; padding-left: 20px ">
+	<div > 
+		<p  style="font-size: 1.6em" id='greeting'></p>
+		<script type="text/javascript">
+			today = new Date();	
+			var hrs = today.getHours();
+			if(hrs >= 2 && hrs <= 12){
+		    	document.getElementById("greeting").innerHTML = 'Hi there, good morning.';
+			}
+			else if(hrs >12 && hrs <= 15) {
+				   document.getElementById("greeting").innerHTML = 'Hi there, good afternoon.' ;
+			}
+				
+			else {
+			    document.getElementById("greeting").innerHTML = 'Hi there, good evening. :)';
+			}
+
+		</script> 
+	</div>
+<!-- The layout will have two bloks. LHS and RHS
+
+this is the LHS block -->
+	<div class="container" style="width: 25%; height: 20em ;float: left; text-align: right; ">
+		<h1> 
+
+			Joseph Jayanth
+			<br>
+			<a href="http://twitter.com/joejayanth" target="_blank"><span class="smallbutton">twitter</span></a>
+			<a href="http://linkedin.com/in/josephjayanth" target="_blank"><span class="smallbutton">linkedin</span></a>
+			<br>
+			<br>
+			<img src="me.png" style="border-radius: 20px; width: 50%; ">
+
+
+
+		</h1>
+
+	</div>
+
+<!-- this is the rhs block
+ -->
+
+ 	<div class="container" style="width: 60%; float: left; text-align: left;">
+
+		<h2>
+			<a href="http://productmanagementlessons.com">Product Management Lessons</a> 
+		</h2>
+
+		<h2>
+			<a href="http://traveldose.com">Travel Stories & Photos</a> 
+		</h2>
+
+		<h2>
+			<a href="http://joejayanth.com">Blog</a>
+		</h2>
+
+		<h2>
+			<a href="http://josephjayanth.com/photos">Photos</a>
+		</h2>
+
+		<h2>
+			<a href="http://josephjayanth.com/games">Games I Built</a> 
+		</h2>
+
+		<h2>
+			<a href="https://chrome.google.com/webstore/detail/new-photo-every-new-tab/finhpbhmcnacgkccdkjgbpifikalkbig" target='_blank'>Chrome extension for new tab</a>
+		</h2>
+
+<!-- Chrome extension i built -https://chrome.google.com/webstore/detail/new-photo-every-new-tab/finhpbhmcnacgkccdkjgbpifikalkbig -->
+
+
+	
+
+	</div>
+
+
+
 </body>
 </html>
